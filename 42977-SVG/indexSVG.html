@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/styles.css">
+        <title>42977-SVG</title>
+    </head>
+    <body>
+        <h1>Trabalho de 42977 - SVG</h1>
+        <div>
+
+            
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="1980" height="1080">
+                <g id="head">
+                    <path 
+                        id="shape"
+                        d= "M930 615 
+                            Q930 600 900 600 
+                            Q890 600 890 570 
+                            Q880 570 885 570 
+                            Q875 570 890 550 
+                            L890 520 
+                            Q930 470 970 520 
+                            L970 605 
+                            Q950 605 930 615" 
+                        stroke="black"
+                        fill="#ffca28" />
+                    <path 
+                        id="hair" 
+                        d= "M890 520 
+                            L885 525 
+                            Q870 510 890 500 
+                            Q885 480 890 490
+                            Q900 500 910 490
+                            Q950 460 970 490
+                            Q995 500 985 530
+                            L985 560
+                            L980 565
+                            L990 565
+                            Q960 580 945 555
+                            Q955 545 950 540
+                            Q950 540 950 540
+                            Q945 530 930 550
+                            L930 520
+                            C920 530 910 510 890 520"
+                        stroke="black" 
+                        fill="#40211b" />
+                    <path 
+                        id="mouth" 
+                        d= "M891 585
+                            Q895 585 900 580" 
+                        stroke="black"
+                        stroke-width="2"/>
+                    <ellipse 
+                        id="eye"
+                        cx="902" cy="548"  
+                        rx="3" ry="5" 
+                        stroke="black" 
+                        fill="black" />
+                    <path 
+                        id="eyebrow" 
+                        d= "M897 540
+                            Q905 535 910 545" 
+                        stroke="black"
+                        stroke-width="2"
+                        fill="none" />
+                </g>
+                <g id="body">
+                    <g>
+                       <path 
+                        id="torso" 
+                        d= "M930 615
+                            Q890 650 900 750
+                            Q950 780 990 750
+                            Q990 650 970 605
+                            Q950 605 930 615"
+                        stroke="black" 
+                        fill="#e77424" />
+                    <path 
+                        id="arm" 
+                        d= "M945 668
+                            L952 695
+                            L930 750
+                            L955 755
+                            L980 695
+                            L972 662
+                            L945 668"
+                        stroke="black" 
+                        fill="#ffca28" />
+                    <path 
+                        id="sleeve" 
+                        d= "M940 670
+                            L930 630
+                            Q947 610 968 620 
+                            L980 660
+                            L940 670" 
+                        stroke="black" 
+                        fill="darkorange" />
+                    </g>
+                </g>
+                <g id="legs">
+                    <path 
+                        id="rightLeg"
+                        d= "M990 750
+                            L990 820
+                            L1050 890
+                            L1030 910
+                            Q960 850 950 835
+                            Q935 820 953 765
+                            Q970 764 990 750"
+                        stroke="black"
+                        fill="#646464" />
+                  <path 
+                        id="leftLeg"
+                        d= "M900 750
+                            Q870 800 875 920
+                            L905 920
+                            L920 840
+                            Q920 830 955 790
+                            Q980 780 990 750
+                            Q950 780 900 750"
+                        stroke="black"
+                        fill="#7c7c7c" />
+                </g>
+                <g id="shoes">
+                    <path 
+                        id="rightShoe" 
+                        d= "M1050 890
+                            L1030 910
+                            Q1015 930 1030 940
+                            L1070 905
+                            Q1060 890 1050 890"
+                        stroke="black"
+                        fill="#25488b" />
+                        <path 
+                        id="leftShoe" 
+                        d= "M905 920
+                            L875 920
+                            Q850 920 850 940
+                            L905 940
+                            Q910 930 905 920"
+                        stroke="black"
+                        fill="#25488b" />
+                </g>
+                <g>
+                    <path 
+                    id="hand" 
+                    d= "M930 750
+                        L915 758
+                        L915 780
+                        Q925 795 950 780 
+                        L955 755
+                        L930 750" 
+                    stroke="black" 
+                    fill="#ffc825" />
+                    <path 
+                        id="fingers"
+                        d= "M915 780
+                            Q920 780 925 765
+                            M922 786
+                            Q930 780 930 775
+                            M932 787
+                            Q937 780 937 775
+                            M940 785
+                            Q942 785 946 775
+                            "
+                        stroke="black"
+                        fill="none" />
+                </g>
+           
+        
+            </svg>
+        </div>
+        <script>
+            function userTools(){
+               var mouse = {
+        x: undefined,
+        y: undefined
+    }
+        window.addEventListener('click',
+            function(){
+            mouse.x = event.x;
+            mouse.y = event.y;
+            console.log(mouse);
+        }) 
+            }
+        userTools();
+            
+        </script>
+    </body>
+</html>
